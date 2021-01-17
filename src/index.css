@@ -60,7 +60,7 @@ main {
 	background: linear-gradient(
 		to right bottom,
 		rgba(255, 255, 255, 0.7),
-		rgba(255, 255, 255, 0.3)
+		rgba(255, 255, 255, 0.2)
 	);
 	border-radius: 2rem;
 	padding: 1rem;
@@ -104,7 +104,6 @@ main {
 	margin: 2rem 0rem;
 	padding: 1rem 4rem;
 	align-items: center;
-	/* justify-content: space-between; */
 	width: 100%;
 }
 
@@ -116,6 +115,7 @@ main {
 .link h2 {
 	padding: 0rem 2rem;
 	font-size: 26px;
+	color: black;
 }
 
 .icon {
@@ -129,4 +129,35 @@ main {
 	color: black;
 	border-radius: 50%;
 	font-size: 36px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	height: 80%;
+	border-radius: 2rem;
+	padding: 2rem;
+	background: linear-gradient(
+		to top left,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.5)
+	);
+	margin: 3rem;
+}
+
+.primary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	list-style: none;
+}
+
+.list li {
+	margin: 5px;
 }
