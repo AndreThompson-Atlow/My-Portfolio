@@ -5,7 +5,7 @@ export const projects = [
         url: 'www.google.com',
         github: 'www.github.com',
         image: 'www.image.com/url',
-        description: 'Save and Generate secure passwords.'
+        description: 'A website that allows users to sign up and store/generate secure passwords. They can add, update, or remove passwords that are saved on a database and accessible only by them. The front-end uses react, the backend uses express/node and the database is mongoDB.'
     },
     {
         name: 'Issue Tracker',
